@@ -9,27 +9,27 @@ body {
   background-color: #2c2c2c;
 }
 
-h1{
-  font-size: 40px;
+h1 {
+  font-size: 30px;
   background: -webkit-linear-gradient(#f8fffb, #1de1ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.game-status-container{
+.game-status-container {
   text-align: center;
 }
 
 table {
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   /* border: 1px solid black; */
   border-radius: 10px;
 }
 
 td {
-  border: 1px solid white;
+  border: 0.5px solid white;
   text-align: center;
   border-radius: 5px;
   /* background-color: green; */
@@ -49,7 +49,7 @@ td {
 span {
   background-color: rgb(9, 176, 9);
   color: white;
-  font-size: 50px;
+  font-size: 30px;
   padding: 15px 30px;
   /* padding: 15px 20px for 2 digits */
   border-radius: 50px;
@@ -153,5 +153,3 @@ button:hover {
 .span-number {
   padding: 15px 20px;
 }
-
-
