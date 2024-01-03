@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Happy Housie</title>
+  </head>
+  <body>
+
+    <div class="game-status-container">
+
+      <h1>AMH Happy Housie</h1>
+
+      <table>
+        <tbody>
+          <tr>
+            <td id="number-1">1</td>
+            <td id="number-2">2</td>
+            <td id="number-3">3</td>
+            <td id="number-4">4</td>
+            <td id="number-5">5</td>
+            <td id="number-6">6</td>
+            <td id="number-7">7</td>
+            <td id="number-8">8</td>
+            <td id="number-9">9</td>
+            <td id="number-10">10</td>
+            <td id="number-11">11</td>
+            <td id="number-12">12</td>
+            <td id="number-13">13</td>
+            <td id="number-14">14</td>
+            <td id="number-15">15</td>
+          </tr>
+          <tr>
+            <td id="number-16">16</td>
+            <td id="number-17">17</td>
+            <td id="number-18">18</td>
+            <td id="number-19">19</td>
+            <td id="number-20">20</td>
+            <td id="number-21">21</td>
+            <td id="number-22">22</td>
+            <td id="number-23">23</td>
+            <td id="number-24">24</td>
+            <td id="number-25">25</td>
+            <td id="number-26">26</td>
+            <td id="number-27">27</td>
+            <td id="number-28">28</td>
+            <td id="number-29">29</td>
+            <td id="number-30">30</td>
+          </tr>
+          <tr>
+            <td id="number-31">31</td>
+            <td id="number-32">32</td>
+            <td id="number-33">33</td>
+            <td id="number-34">34</td>
+            <td id="number-35">35</td>
+            <td id="number-36">36</td>
+            <td id="number-37">37</td>
+            <td id="number-38">38</td>
+            <td id="number-39">39</td>
+            <td id="number-40">40</td>
+            <td id="number-41">41</td>
+            <td id="number-42">42</td>
+            <td id="number-43">43</td>
+            <td id="number-44">44</td>
+            <td id="number-45">45</td>
+          </tr>
+          <tr>
+            <td id="number-46">46</td>
+            <td id="number-47">47</td>
+            <td id="number-48">48</td>
+            <td id="number-49">49</td>
+            <td id="number-50">50</td>
+            <td id="number-51">51</td>
+            <td id="number-52">52</td>
+            <td id="number-53">53</td>
+            <td id="number-54">54</td>
+            <td id="number-55">55</td>
+            <td id="number-56">56</td>
+            <td id="number-57">57</td>
+            <td id="number-58">58</td>
+            <td id="number-59">59</td>
+            <td id="number-60">60</td>
+          </tr>
+          <tr>
+            <td id="number-61">61</td>
+            <td id="number-62">62</td>
+            <td id="number-63">63</td>
+            <td id="number-64">64</td>
+            <td id="number-65">65</td>
+            <td id="number-66">66</td>
+            <td id="number-67">67</td>
+            <td id="number-68">68</td>
+            <td id="number-69">69</td>
+            <td id="number-70">70</td>
+            <td id="number-71">71</td>
+            <td id="number-72">72</td>
+            <td id="number-73">73</td>
+            <td id="number-74">74</td>
+            <td id="number-75">75</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    
+
+    <div class="game-container">
+
+      <div class="number-container">
+        <span id="random-number">Who is winner?</span>
+      </div>
+
+      <div class="delay-container">
+        <label for="delayTime">Delay (s): </label>
+        <input type="number" id="delayTime" min="1" value="5">
+      </div>
+      
+
+      <div class="action-button-container">
+        <button id="startBtn" class="button-85" onclick="startGame()">Start Game</button>
+        <button id="stopBtn" class="button-85" onclick="stopGame()">Stop Game</button>
+        <button id="resumeBtn" class="button-85" onclick="resumeGame()">Resume Game</button>
+        <button id="resetBtn" class="button-85" onclick="resetGame()">Reset Game</button>
+      </div>
+      
+    </div>
+
+    <script src="action.js"></script>
+  </body>
+</html>
