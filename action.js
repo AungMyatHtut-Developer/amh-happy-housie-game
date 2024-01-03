@@ -35,7 +35,7 @@ function resetGame() {
 }
 
 function callNumber() {
-  playWarningSound();
+  // playWarningSound();
 
   setTimeout(function () {
     let randomNumber;
