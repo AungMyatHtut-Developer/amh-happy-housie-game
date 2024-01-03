@@ -7,9 +7,7 @@
     <title>Happy Housie</title>
   </head>
   <body>
-
     <div class="game-status-container">
-
       <h1>AMH Happy Housie</h1>
 
       <table>
@@ -103,28 +101,30 @@
       </table>
     </div>
 
-
-    
-
     <div class="game-container">
-
       <div class="number-container">
-        <span id="random-number">Who Is Winner?</span>
+        <span id="random-number">Start Game</span>
       </div>
 
       <div class="delay-container">
         <label for="delayTime">Delay (s): </label>
-        <input type="number" id="delayTime" min="1" value="5">
+        <input type="number" id="delayTime" min="1" value="5" />
       </div>
-      
 
       <div class="action-button-container">
-        <button id="startBtn" class="button-85" onclick="startGame()">Start Game</button>
-        <button id="stopBtn" class="button-85" onclick="stopGame()">Stop Game</button>
-        <button id="resumeBtn" class="button-85" onclick="resumeGame()">Resume Game</button>
-        <button id="resetBtn" class="button-85" onclick="resetGame()">Reset Game</button>
+        <button id="startBtn" class="button-85" onclick="startGame()">
+          Start Game
+        </button>
+        <button id="stopBtn" class="button-85" onclick="stopGame()">
+          Stop Game
+        </button>
+        <button id="resumeBtn" class="button-85" onclick="resumeGame()">
+          Resume Game
+        </button>
+        <button id="resetBtn" class="button-85" onclick="resetGame()">
+          Reset Game
+        </button>
       </div>
-      
     </div>
 
     <script src="action.js"></script>
